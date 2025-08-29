@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfil Profissional – Paulo Henrique Sousa Lima</title>
+  <meta name="description" content="Perfil profissional de Paulo Henrique Sousa Lima.">
+
+  <style>
+    /* Estilo geral da página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #045575;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: #047981;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Título principal */
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    h1 span {
+      color: #000000; /* destaque no nome do meio */
+    }
+
+    /* Imagem de perfil */
+    img {
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Seções */
+    section {
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 600px;
+      background-color: #f8f8f8;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(247, 4, 4, 0.1);
+    }
+
+    /* Listas */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #df0a0a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #4CAF50;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Paulo <span>Henrique</span> Sousa Lima</h1>
+    <p>Desenvolvedor de Front-end / HTML5 </p>
+  </header>
+
+  <main>
+    <section aria-labelledby="foto-perfil">
+      <h2 id="foto-perfil">Foto de perfil</h2>
+      <figure>
+        <img src="Eu.jpg" alt="Foto de Paulo Henrique Sousa Lima" width="180" height="180">
+        <figcaption></figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="contatos">
+      <h2 id="contatos">Contatos</h2>
+      <ul>
+        <li><strong>E-mail:</strong> <a href="mailto:phenrique.feitosas@gmail.com">phenrique.feitosas@gmail.com</a></li>
+        <li><strong>Telefone:</strong> <a href="tel:+55994655328">+55 (86) 99465-5328</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/Paulo-Ph15" target="_blank">Paulo-Ph15</a></li>
+        <li><strong>Rede social:</strong> <a href="https://www.instagram.com/henrique_sousa014" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="resumo">
+      <h2 id="resumo">Resumo profissional</h2>
+      <p>
+        Me chamo Paulo Henrique. Tenho 18 anos e moro em Teresina - Piauí. Concluí o ensino médio no colégio CPI
+        e atualmente estou cursando ADS (Análise e Desenvolvimento de Sistemas) na faculdade Uninassau da zona sul.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Última atualização: <time datetime="2025-08-15">15 de agosto de 2025</time></p>
+  </footer>
+</body>
+</html>
